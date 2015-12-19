@@ -6,3 +6,7 @@
 #about {
     margin-top: 80px;
 }
+
+section:nth-child(odd) {
+	background: #efefef;
+}
