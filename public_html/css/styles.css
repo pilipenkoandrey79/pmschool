@@ -3,9 +3,13 @@
     Author     : andriypilipenko
 */
 
-#about {
-    margin-top: 80px;
+.about-container {
+    padding-top: 80px;
+    background: url(../img/about_bg.jpg) center center no-repeat #08527F;
+    color: #efefef;
 }
+
+section {padding: 15px 0; }
 
 section:nth-child(odd) {
 	background: #efefef;
@@ -19,9 +23,9 @@ section:nth-child(odd) {
 /* div class="col-md-4 form fundamental" */
 
 .fundamental .topic {
-	background-image: url(img/fundamentals-icon.png);
+	background-image: url(../img/fundamentals-icon.png);
 }
-.topic {	
+.topic {
 	background-repeat: no-repeat;
 	padding-left: 30px;
 }
