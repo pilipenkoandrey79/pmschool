@@ -10,7 +10,7 @@ function navScrollTo(clicked_link, nav_height) {
 }
 
 $(function(){
-	$("#timer .time").countdowntimer({size:"lg", dateAndTime: "2016/01/15 23:59:00"});
+	$(".timer .time").countdowntimer({size:"lg", dateAndTime: "2016/01/15 23:59:00"});
 
     var navbarHeight = $('nav.navbar').outerHeight();
     $('.scrollnav a').on('click', function(e) {

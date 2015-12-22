@@ -11,7 +11,7 @@ section:nth-child(odd) {
 	background: #efefef;
 }
 
-#timer .time {
+.timer .time {
     font-size: 3em;
     font-weight: bold;
 }
