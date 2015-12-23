@@ -16,10 +16,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Layout */
-section {
-    padding: 1em 0;
+#wrapper {
+	background: url(../img/handmadepaper.png) center center repeat #ffffff;
 }
-section:nth-child(odd) {
+section .container {
+	border-left: 1px solid #C2C7CE;
+	border-right: 1px solid #C2C7CE;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	background: #ffffff;
+}
+section:nth-child(even) .container {
 	background: #efefef;
 }
 section h2 {
@@ -36,8 +43,12 @@ nav.navbar {
 /* About */
 .about-container {
     padding-top: 80px;
-    background: url(../img/_about_bg.jpg) center center no-repeat #08527F;
+    background: url(../img/about_bg.png) center center no-repeat #08527F;
     color: rgb(186, 183, 230);
+}
+section.about-container .container {
+	background: none;
+	border: none;
 }
 .about-container h1 {
     font-weight: 300;
