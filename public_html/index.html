@@ -7,7 +7,10 @@
 		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 		<title>PM School</title>
 
-		<!-- Latest compiled and minified CSS -->
+        <link href='https://fonts.googleapis.com/css?family=Arimo&subset=latin,cyrillic,cyrillic-ext' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700&subset=latin,cyrillic,cyrillic-ext' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700&subset=latin,cyrillic,cyrillic-ext' rel='stylesheet' type='text/css'>
+        <!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/styles.css">
 
@@ -52,44 +55,46 @@
 
 				<section class="about-container">
 					<div class="container">
-						<div class="row">
+						<div class="row title">
 							<div class="col-md-5"><h1>Уникальная программа <q>Обучение проектному менеджменту в IT-разработке</q></h1></div>
-							<div class="col-md-4 col-md-offset-3">
-								<blockquote>
-									<p>Инвестируйте в себя. Ваша карьера – это мотор вашего богатства</p>
-									<footer>Пол Клитероу / Paul Clitheroe</footer>
-								</blockquote>
-								<blockquote>
-									<p>Вложиться в свое развитие – лучшая инвестиция из возможных</p>
-									<footer>Алексей Егошин</footer>
-								</blockquote>
-							</div>
+							<div class="col-md-7">
+                                <div class="row">
+                                    <div class="col-md-9 col-md-offset-3">
+                                        <blockquote>
+                                            <p>Инвестируйте в себя. Ваша карьера – это мотор вашего богатства</p>
+                                            <footer>Пол Клитероу / Paul Clitheroe</footer>
+                                        </blockquote>
+                                        <blockquote>
+                                            <p>Вложиться в свое развитие – лучшая инвестиция из возможных</p>
+                                            <footer>Алексей Егошин</footer>
+                                        </blockquote>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 inside">
+                                        <p>Внутри:</p>
+                                        <ul>
+                                            <li>Полноценный курс менеджмента, около 200 часов, 13 модулей</li>
+                                            <li>3 области знаний – Software Development Life Cycle, Management Hard Skills, Management Soft Skills</li>
+                                            <li>Только работающая теория, проверенная на практике в ведущих IT-компаниях Украины</li>
+                                            <li>Обучение через практику с элементами MBA-подходов</li>
+                                            <li>На рынке отсутствуют аналоги подобной программы</li>
+                                            <li>Лучшим ученикам будут даны рекомендация в IT-компании на прохождение собеседования (есть договоренность с IT-компаниями)</li>
+                                        </ul>
+                                        <p>Чем бы вы ни занимались до этого — закончив программу, вы сможете управлять проектами в IT-разработке.</p>
+                                    </div>
+                                </div>
+                            </div>
 						</div><!-- /.row -->
 						<div class="row">
-							<div class="col-md-6 col-md-offset-6">
-								<p>Внутри:</p>
-								<ul>
-									<li>Полноценный курс менеджмента, около 200 часов, 13 модулей</li>
-									<li>3 области знаний – Software Development Life Cycle, Management Hard Skills, Management Soft Skills</li>
-									<li>Только работающая теория, проверенная на практике в ведущих IT-компаниях Украины</li>
-									<li>Обучение через практику с элементами MBA-подходов</li>
-									<li>На рынке отсутствуют аналоги подобной программы</li>
-									<li>Лучшим ученикам будут даны рекомендация в IT-компании на прохождение собеседования (есть договоренность с IT-компаниями)</li>
-								</ul>
-								<p>Чем бы вы ни занимались до этого — закончив программу, вы сможете управлять проектами в IT-разработке.</p>
-							</div>
-						</div><!-- /.row -->
-						<div class="row">
-							<div class="col-md-8 col-md-offset-2">
-								<h4>Регистрация закрывается 15 января, в 23:59 Kyiv Time Zone (+2 UTC)</h4>
-                                <div class="timer text-primary">
+							<div class="col-md-7 col-md-offset-1">
+								<p>Регистрация закрывается 15 января, в 23:59 Kyiv Time Zone (+2 UTC)</p>
+                                <div class="timer">
                                     <p class="time"></p>
                                     <p class="timer-labels"><span>Дней</span><span>Часов</span><span>Минут</span><span>Секунд</span></p>
                                 </div>
-								<div>
-									<a href="#buy" class="btn btn-lg btn-info"><i class="glyphicon glyphicon-shopping-cart"></i> Купить</a>
-								</div>
-							</div>
+                            </div>
+                            <div class="col-md-2 buy-button"><a href="#buy" class="btn btn-lg btn-info"><i class="glyphicon glyphicon-shopping-cart"></i> Купить</a></div>
 						</div><!-- /.row -->
 					</div><!-- /.container -->
 				</section>
@@ -97,7 +102,9 @@
 				<section class="perspectives-container">
 					<div class="container">
 						<div class="row">
-							<h2 id="perspectives">Зачем мне это?</h2>
+                            <div class="col-md-12">
+                            	<h2 id="perspectives">Зачем мне это?</h2>
+                            </div>
 						</div><!-- /.row -->
 						<div class="row">
 							<div class="col-md-4">
@@ -165,7 +172,9 @@
 				<section class="details-container">
 					<div class="container">
 						<div class="row">
-							<h2 id="details">Выбери свою программу обучения</h2>
+                            <div class="col-md-12">
+                                <h2 id="details">Выбери свою программу обучения</h2>
+                            </div>
 						</div><!-- /.row -->
 						<div class="row study-forms">
 							<div class="col-md-4 form fundamental">
@@ -173,7 +182,7 @@
 									<h3>Fundamentals</h3>
 									<div class="form-label">За 4 месяца</div>
 								</div>
-								
+
 								<ul>
 									<li>0 лет в отрасли</li>
 									<li>Вы не знакомы или слабо знакомы с IT</li>
@@ -613,7 +622,7 @@
 				</section>
 
                 <footer>
-                    
+
                 </footer>
 			</div><!-- /#wrapper-->
 		</div><!-- /#page -->

@@ -3,21 +3,85 @@
     Author     : andriypilipenko
 */
 
-.about-container {
-    padding-top: 80px;
-    background: url(../img/about_bg.jpg) center center no-repeat #08527F;
-    color: #efefef;
+/* Fonts */
+body {
+    font-family: 'Arimo', sans-serif;
+    color: #858592;
+    font-size: 185%;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #393531;
 }
 
-section {padding: 15px 0; }
-
+/* Layout */
+section {
+    padding: 1em 0;
+}
 section:nth-child(odd) {
 	background: #efefef;
 }
+section h2 {
+    padding: 0.6em 0 1.4em 0;
+    text-align: center;
+    margin: 1em 4em 0.8em;
+    border-bottom: 1px solid #C2C7CE;
+}
+nav.navbar {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+}
 
-.timer .time {
+/* About */
+.about-container {
+    padding-top: 80px;
+    background: url(../img/_about_bg.jpg) center center no-repeat #08527F;
+    color: rgb(186, 183, 230);
+}
+.about-container h1 {
+    font-weight: 300;
+    color: inherit;
     font-size: 3em;
-    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+.about-container blockquote {
+    font-style: italic;
+    font-size: 0.8em;
+    border: none;
+    line-height: 1.1em;
+    margin: 0;
+}
+.about-container blockquote footer {
+    color: inherit;
+}
+.about-container .inside {
+    font-size: 0.8em;
+}
+.about-container .title {
+    margin-bottom: .7em;
+    border-bottom: 1px solid rgba(186, 183, 230, 0.5);
+    padding-bottom: .8em;
+}
+.about-container .buy-button {
+    padding: 3.3em 0;
+    text-align: center;
+}
+
+/* Timer */
+.timer {
+    font-weight: 300;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.timer .time {
+    font-size: 5em;
+    line-height: 1em;
+}
+.timer .timer-labels span {
+    display: inline-block;
+    width: 105px;
+    text-align: center;
 }
 
 /* div class="col-md-4 form fundamental" */
