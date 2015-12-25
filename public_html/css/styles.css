@@ -100,9 +100,15 @@ section.about-container .container {
 .fundamental .topic {
 	background-image: url(../img/fundamentals-icon.png);
 }
+.senior .topic {
+	background-image: url(../img/senior-icon.png);
+}
+.expert .topic {
+	background-image: url(../img/expert-icon.png);
+}
 .topic {
 	background-repeat: no-repeat;
-	padding-left: 30px;
+	padding-left: 50px;
 }
 .fundamental h3 {
 	color: #4d7bb4;
@@ -120,6 +126,6 @@ section.about-container .container {
 	color: #939ca7;
 	margin-bottom: 10px;
 }
-.col-md-4 .form ul{
-	list-style-image: url(img/icon_li.png);
+.form ul li{
+	list-style-image: url(../img/icon_li.png);
 }
