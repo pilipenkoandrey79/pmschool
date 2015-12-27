@@ -15,6 +15,20 @@ h1, h2, h3, h4, h5, h6 {
     color: #393531;
 }
 
+@font-face {
+  font-family: 'fontello';
+  src: url('../fonts/fontello.eot?68991087');
+  src: url('../fonts/fontello.eot?68991087#iefix') format('embedded-opentype'),
+       url('../fonts/fontello.woff?68991087') format('woff'),
+       url('../fonts/fontello.ttf?68991087') format('truetype'),
+       url('../fonts/fontello.svg?68991087#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.fontello {
+	font-family: 'fontello';
+}
+
 /* Layout */
 #wrapper {
 	background: url(../img/handmadepaper.png) center center repeat #ffffff;
@@ -97,7 +111,7 @@ section.about-container .container {
 
 /* div class="col-md-4 form fundamental" */
 
-.fundamental .topic {
+/* .fundamental .topic {
 	background-image: url(../img/fundamentals-icon.png);
 }
 .senior .topic {
@@ -105,7 +119,7 @@ section.about-container .container {
 }
 .expert .topic {
 	background-image: url(../img/expert-icon.png);
-}
+} */
 .topic {
 	background-repeat: no-repeat;
 	padding-left: 50px;
@@ -128,4 +142,9 @@ section.about-container .container {
 }
 .form ul li{
 	list-style-image: url(../img/icon_li.png);
+}
+
+/* Footer */
+.social {
+	text-align: center;
 }
