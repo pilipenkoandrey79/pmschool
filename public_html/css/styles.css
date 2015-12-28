@@ -60,7 +60,7 @@ nav.navbar {
 /* About */
 .about-container {
     padding-top: 80px;
-    background: url(../img/about_bg.png) center center no-repeat #08527F;
+    background: url(../img/about_bg.png) top center no-repeat #08527F;
     color: rgb(186, 183, 230);
     font-weight: 400;
 }
@@ -133,7 +133,6 @@ section.about-container .container {
 }
 .senior {
     border: 1px solid #C2C7CE;
-    padding-bottom: 0.6em;
 }
 .senior h3 {
 	color: #ea5012;
@@ -151,6 +150,9 @@ section.about-container .container {
 .form ul li{
 	list-style-image: url(../img/icon_li.png);
 }
+.study-forms .form {
+    padding-bottom: 0.6em;
+}
 .form .form-description {
     font-size: 0.8em;
     padding: 1em 0.1em;
@@ -159,6 +161,12 @@ section.about-container .container {
     margin-top: 1.2em;
     border-top: 1px solid #C2C7CE;
     padding: 1em;
+}
+
+/* Registration */
+.registration {
+    padding: 0.5em;
+    background: #afdcff;
 }
 
 /* Footer */
