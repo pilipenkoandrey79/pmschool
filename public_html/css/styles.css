@@ -61,7 +61,7 @@ nav.navbar {
 .about-container {
     padding-top: 80px;
     background: url(../img/about_bg.png) -562px -236px no-repeat #0C2D54;
-    color: rgb(186, 183, 230);
+    color: #ffffff;
     font-weight: 400;
 }
 .about-container .inside {
@@ -69,8 +69,6 @@ nav.navbar {
     padding-top: 1.0em;
     padding-bottom: 1.0em;
     border-radius: 0.8em;
-    /* margin-top: 0.2em; */
-    /* margin-bottom: 0.2em; */
 }
 section.about-container .container {
 	background: none;
@@ -78,7 +76,7 @@ section.about-container .container {
 }
 .about-container h1 {
     font-weight: 700;
-    color: #ffffff;
+    color: inherit;
     font-size: 3em;
     font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
