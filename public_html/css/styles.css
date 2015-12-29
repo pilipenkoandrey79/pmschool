@@ -60,9 +60,17 @@ nav.navbar {
 /* About */
 .about-container {
     padding-top: 80px;
-    background: url(../img/about_bg.png) top center no-repeat #08527F;
+    background: url(../img/about_bg.png) -562px -236px no-repeat #0C2D54;
     color: rgb(186, 183, 230);
     font-weight: 400;
+}
+.about-container .inside {
+    background-color: rgba(0,0,0,0.6);
+    padding-top: 1.0em;
+    padding-bottom: 1.0em;
+    border-radius: 0.8em;
+    /* margin-top: 0.2em; */
+    /* margin-bottom: 0.2em; */
 }
 section.about-container .container {
 	background: none;
@@ -163,6 +171,26 @@ section.about-container .container {
     padding: 1em;
 }
 
+/* Images */
+.guarantee-container img {
+    margin: auto;
+}
+.bonuses-container .images i {
+    display: block;
+    width: 43px;
+    height: 43px;
+    margin: 15px auto;
+    background: transparent no-repeat center center;
+}
+.bonuses-container .images i:nth-child(1) { background-image: url(../img/cup.png); }
+.bonuses-container .images i:nth-child(2) { background-image: url(../img/grade.png); }
+.bonuses-container .images i:nth-child(3) { background-image: url(../img/medal.png); }
+.bonuses-container .images i:nth-child(4) { background-image: url(../img/person.png); }
+.bonuses-container .images i:nth-child(5) { background-image: url(../img/graph.png); }
+.bonuses-container .images i:nth-child(6) { background-image: url(../img/ok.png); }
+.bonuses-container .images i:nth-child(7) { background-image: url(../img/plan.png); }
+.bonuses-container .images i:nth-child(8) { background-image: url(../img/yes.png); }
+
 /* Registration */
 .registration {
     padding: 0.5em;
@@ -189,7 +217,7 @@ footer {
 .social a:hover {
     background-color: #bebeae;
 }
-.social a>span {
+.social a>em {
     display: none;
 }
 footer .policy-link {
