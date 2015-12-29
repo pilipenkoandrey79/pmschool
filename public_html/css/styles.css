@@ -6,7 +6,7 @@
 /* Fonts */
 body {
     font-family: 'Open Sans', sans-serif;
-    color: #858592;
+    color: #2E2E33;
     font-weight: 300;
     font-size: 185%;
 }
@@ -77,8 +77,8 @@ section.about-container .container {
 	border: none;
 }
 .about-container h1 {
-    font-weight: 300;
-    color: inherit;
+    font-weight: 700;
+    color: #ffffff;
     font-size: 3em;
     font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
@@ -140,7 +140,8 @@ section.about-container .container {
 	color: #4d7bb4;
 }
 .senior {
-    border: 1px solid #C2C7CE;
+    /* border: 1px solid #C2C7CE; */
+    box-shadow: 1px 4px 16px 1px #ababab;
 }
 .senior h3 {
 	color: #ea5012;
@@ -152,11 +153,13 @@ section.about-container .container {
 	margin-bottom: 0px;
 }
 .form-label {
-	color: #939ca7;
 	margin-bottom: 10px;
 }
 .form ul li{
 	list-style-image: url(../img/icon_li.png);
+}
+.study-forms {
+    margin-bottom: 2em;
 }
 .study-forms .form {
     padding-bottom: 0.6em;
